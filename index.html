@@ -1,0 +1,76 @@
+<!doctype html>
+</div>
+</header>
+
+
+<main>
+<section id="home" class="hero">
+<div class="container">
+<h2>Welcome to a clean, simple site</h2>
+<p>Built with plain HTML, CSS and a touch of JavaScript — perfect for showcasing projects.</p>
+<a class="btn" href="#contact">Get in touch</a>
+</div>
+</section>
+
+
+<section id="features" class="features container">
+<h3>Features</h3>
+<div class="grid">
+<article>
+<h4>Responsive</h4>
+<p>Looks great on phones and desktops.</p>
+</article>
+<article>
+<h4>Accessible</h4>
+<p>Keyboard friendly and semantic HTML.</p>
+</article>
+<article>
+<h4>Easy to edit</h4>
+<p>No build tools — edit files directly on GitHub.</p>
+</article>
+</div>
+</section>
+
+
+<section id="gallery" class="gallery container">
+<h3>Gallery</h3>
+<div class="grid gallery-grid">
+<div class="card">Image 1</div>
+<div class="card">Image 2</div>
+<div class="card">Image 3</div>
+</div>
+</section>
+
+
+<section id="contact" class="contact container">
+<h3>Contact</h3>
+<form id="contactForm" novalidate>
+<label for="name">Name</label>
+<input id="name" name="name" type="text" required minlength="2">
+
+
+<label for="email">Email</label>
+<input id="email" name="email" type="email" required>
+
+
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="4" required></textarea>
+
+
+<button type="submit" class="btn">Send message</button>
+<p id="formStatus" role="status" aria-live="polite"></p>
+</form>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<p>&copy; <span id="year"></span> My Site — Built with ❤️</p>
+</div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
